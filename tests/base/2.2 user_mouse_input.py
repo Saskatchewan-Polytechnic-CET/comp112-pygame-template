@@ -15,7 +15,7 @@ screen = pygame.display.set_mode(size)
 
 # loads a new image from a file and convert() 
 # will create a copy of image on surface
-img = pygame.image.load("char.png").convert()
+img = pygame.image.load("tests/base/char.png").convert()
 
 # declaring value to variables
 clicking = False
@@ -41,7 +41,7 @@ while True:
             
             # declaring new image file to update image
             # everytime left button clicking is true
-            img = pygame.image.load("char1.png")
+            img = pygame.image.load("tests/base/char1.png")
             pygame.display.update()  # update image
         
         # returns true when mouse right button is clicked
