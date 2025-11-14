@@ -56,9 +56,9 @@ screen = pg.display.set_mode((width, height + 100), 0, 32)
 pg.display.set_caption("My Tic Tac Toe")
 
 # loading the images as python object
-initiating_window = pg.image.load("tests/base/modified_cover.png")
-x_img = pg.image.load("tests/base/X_modified.png")
-y_img = pg.image.load("tests/base/o_modified.png")
+initiating_window = pg.image.load("tests/examples/modified_cover.png")
+x_img = pg.image.load("tests/examples/X_modified.png")
+y_img = pg.image.load("tests/examples/o_modified.png")
 
 # resizing images
 initiating_window = pg.transform.scale(
