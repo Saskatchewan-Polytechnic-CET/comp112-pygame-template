@@ -50,7 +50,7 @@ while True:
             
             # declaring new image file to update image
             # everytime right button is clicked
-            img = pygame.image.load("char.png")
+            img = pygame.image.load("tests/base/char.png")
             pygame.display.update()  # update image
             
         # returns true when mouse middle button is clicked
