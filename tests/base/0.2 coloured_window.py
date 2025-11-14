@@ -15,3 +15,6 @@ color = (255, 0, 0)
 # Changing surface color
 surface.fill(color)
 pygame.display.flip()
+# Pause for 3 seconds
+pygame.time.wait(3000)  
+pygame.quit()  
