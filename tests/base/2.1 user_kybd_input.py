@@ -15,7 +15,7 @@ screen = pygame.display.set_mode(size)
 
 # loads a new image from a file and convert()
 # will create a copy of image on surface
-img = pygame.image.load("char.png").convert()
+img = pygame.image.load("tests/base/char.png").convert()
 
 # declaring value to variables
 x, y = 0, 0
